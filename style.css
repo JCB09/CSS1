@@ -1,8 +1,24 @@
-html{
-    background-color: lightblue;   
+html{ 
+    box-sizing: border-box;
+    border: 35px solid lightblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.3rem;
+    color: darkblue;
+}
+.sub-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+.description{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
     color: darkblue;
 }
